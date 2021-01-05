@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5C139A225A3208600116E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C139A125A3208600116E52 /* AppDelegate.swift */; };
+		F5C139A425A3208600116E52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C139A325A3208600116E52 /* SceneDelegate.swift */; };
+		F5C139A625A3208600116E52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C139A525A3208600116E52 /* ViewController.swift */; };
+		F5C139A925A3208600116E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C139A725A3208600116E52 /* Main.storyboard */; };
+		F5C139AB25A3208700116E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C139AA25A3208700116E52 /* Assets.xcassets */; };
+		F5C139AE25A3208700116E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C139AC25A3208700116E52 /* LaunchScreen.storyboard */; };
+		F5C139B925A3208700116E52 /* CloudTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C139B825A3208700116E52 /* CloudTalkTests.swift */; };
+		F5C139C425A3208700116E52 /* CloudTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C139C325A3208700116E52 /* CloudTalkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5C139B525A3208700116E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C1399625A3208600116E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C1399D25A3208600116E52;
+			remoteInfo = CloudTalk;
+		};
+		F5C139C025A3208700116E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C1399625A3208600116E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C1399D25A3208600116E52;
+			remoteInfo = CloudTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5C1399E25A3208600116E52 /* CloudTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C139A125A3208600116E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5C139A325A3208600116E52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5C139A525A3208600116E52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5C139A825A3208600116E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5C139AA25A3208700116E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5C139AD25A3208700116E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5C139AF25A3208700116E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C139B425A3208700116E52 /* CloudTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C139B825A3208700116E52 /* CloudTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudTalkTests.swift; sourceTree = "<group>"; };
+		F5C139BA25A3208700116E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C139BF25A3208700116E52 /* CloudTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C139C325A3208700116E52 /* CloudTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudTalkUITests.swift; sourceTree = "<group>"; };
+		F5C139C525A3208700116E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5C1399B25A3208600116E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C139B125A3208700116E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C139BC25A3208700116E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5C1399525A3208600116E52 = {
+			isa = PBXGroup;
+			children = (
+				F5C139A025A3208600116E52 /* CloudTalk */,
+				F5C139B725A3208700116E52 /* CloudTalkTests */,
+				F5C139C225A3208700116E52 /* CloudTalkUITests */,
+				F5C1399F25A3208600116E52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5C1399F25A3208600116E52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5C1399E25A3208600116E52 /* CloudTalk.app */,
+				F5C139B425A3208700116E52 /* CloudTalkTests.xctest */,
+				F5C139BF25A3208700116E52 /* CloudTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5C139A025A3208600116E52 /* CloudTalk */ = {
+			isa = PBXGroup;
+			children = (
+				F5C139A125A3208600116E52 /* AppDelegate.swift */,
+				F5C139A325A3208600116E52 /* SceneDelegate.swift */,
+				F5C139A525A3208600116E52 /* ViewController.swift */,
+				F5C139A725A3208600116E52 /* Main.storyboard */,
+				F5C139AA25A3208700116E52 /* Assets.xcassets */,
+				F5C139AC25A3208700116E52 /* LaunchScreen.storyboard */,
+				F5C139AF25A3208700116E52 /* Info.plist */,
+			);
+			path = CloudTalk;
+			sourceTree = "<group>";
+		};
+		F5C139B725A3208700116E52 /* CloudTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5C139B825A3208700116E52 /* CloudTalkTests.swift */,
+				F5C139BA25A3208700116E52 /* Info.plist */,
+			);
+			path = CloudTalkTests;
+			sourceTree = "<group>";
+		};
+		F5C139C225A3208700116E52 /* CloudTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5C139C325A3208700116E52 /* CloudTalkUITests.swift */,
+				F5C139C525A3208700116E52 /* Info.plist */,
+			);
+			path = CloudTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5C1399D25A3208600116E52 /* CloudTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C139C825A3208700116E52 /* Build configuration list for PBXNativeTarget "CloudTalk" */;
+			buildPhases = (
+				F5C1399A25A3208600116E52 /* Sources */,
+				F5C1399B25A3208600116E52 /* Frameworks */,
+				F5C1399C25A3208600116E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudTalk;
+			productName = CloudTalk;
+			productReference = F5C1399E25A3208600116E52 /* CloudTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5C139B325A3208700116E52 /* CloudTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C139CB25A3208700116E52 /* Build configuration list for PBXNativeTarget "CloudTalkTests" */;
+			buildPhases = (
+				F5C139B025A3208700116E52 /* Sources */,
+				F5C139B125A3208700116E52 /* Frameworks */,
+				F5C139B225A3208700116E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5C139B625A3208700116E52 /* PBXTargetDependency */,
+			);
+			name = CloudTalkTests;
+			productName = CloudTalkTests;
+			productReference = F5C139B425A3208700116E52 /* CloudTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5C139BE25A3208700116E52 /* CloudTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C139CE25A3208700116E52 /* Build configuration list for PBXNativeTarget "CloudTalkUITests" */;
+			buildPhases = (
+				F5C139BB25A3208700116E52 /* Sources */,
+				F5C139BC25A3208700116E52 /* Frameworks */,
+				F5C139BD25A3208700116E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5C139C125A3208700116E52 /* PBXTargetDependency */,
+			);
+			name = CloudTalkUITests;
+			productName = CloudTalkUITests;
+			productReference = F5C139BF25A3208700116E52 /* CloudTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5C1399625A3208600116E52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F5C1399D25A3208600116E52 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F5C139B325A3208700116E52 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F5C1399D25A3208600116E52;
+					};
+					F5C139BE25A3208700116E52 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F5C1399D25A3208600116E52;
+					};
+				};
+			};
+			buildConfigurationList = F5C1399925A3208600116E52 /* Build configuration list for PBXProject "CloudTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5C1399525A3208600116E52;
+			productRefGroup = F5C1399F25A3208600116E52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5C1399D25A3208600116E52 /* CloudTalk */,
+				F5C139B325A3208700116E52 /* CloudTalkTests */,
+				F5C139BE25A3208700116E52 /* CloudTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5C1399C25A3208600116E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C139AE25A3208700116E52 /* LaunchScreen.storyboard in Resources */,
+				F5C139AB25A3208700116E52 /* Assets.xcassets in Resources */,
+				F5C139A925A3208600116E52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C139B225A3208700116E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C139BD25A3208700116E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5C1399A25A3208600116E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C139A625A3208600116E52 /* ViewController.swift in Sources */,
+				F5C139A225A3208600116E52 /* AppDelegate.swift in Sources */,
+				F5C139A425A3208600116E52 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C139B025A3208700116E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C139B925A3208700116E52 /* CloudTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C139BB25A3208700116E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C139C425A3208700116E52 /* CloudTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5C139B625A3208700116E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C1399D25A3208600116E52 /* CloudTalk */;
+			targetProxy = F5C139B525A3208700116E52 /* PBXContainerItemProxy */;
+		};
+		F5C139C125A3208700116E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C1399D25A3208600116E52 /* CloudTalk */;
+			targetProxy = F5C139C025A3208700116E52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5C139A725A3208600116E52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C139A825A3208600116E52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5C139AC25A3208700116E52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C139AD25A3208700116E52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5C139C625A3208700116E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5C139C725A3208700116E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5C139C925A3208700116E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4285ALH3W;
+				INFOPLIST_FILE = CloudTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.CloudTalk.CloudTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5C139CA25A3208700116E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4285ALH3W;
+				INFOPLIST_FILE = CloudTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.CloudTalk.CloudTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5C139CC25A3208700116E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4285ALH3W;
+				INFOPLIST_FILE = CloudTalkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.CloudTalk.CloudTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudTalk.app/CloudTalk";
+			};
+			name = Debug;
+		};
+		F5C139CD25A3208700116E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4285ALH3W;
+				INFOPLIST_FILE = CloudTalkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.CloudTalk.CloudTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudTalk.app/CloudTalk";
+			};
+			name = Release;
+		};
+		F5C139CF25A3208700116E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4285ALH3W;
+				INFOPLIST_FILE = CloudTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.CloudTalk.CloudTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudTalk;
+			};
+			name = Debug;
+		};
+		F5C139D025A3208700116E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4285ALH3W;
+				INFOPLIST_FILE = CloudTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.CloudTalk.CloudTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5C1399925A3208600116E52 /* Build configuration list for PBXProject "CloudTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C139C625A3208700116E52 /* Debug */,
+				F5C139C725A3208700116E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C139C825A3208700116E52 /* Build configuration list for PBXNativeTarget "CloudTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C139C925A3208700116E52 /* Debug */,
+				F5C139CA25A3208700116E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C139CB25A3208700116E52 /* Build configuration list for PBXNativeTarget "CloudTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C139CC25A3208700116E52 /* Debug */,
+				F5C139CD25A3208700116E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C139CE25A3208700116E52 /* Build configuration list for PBXNativeTarget "CloudTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C139CF25A3208700116E52 /* Debug */,
+				F5C139D025A3208700116E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5C1399625A3208600116E52 /* Project object */;
+}
