@@ -14,6 +14,14 @@
 		F539C3DE25A6E3F400768828 /* EvernoteTestSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F539C3D525A6E3F400768828 /* EvernoteTestSwiftVC.swift */; };
 		F539C3DF25A6E3F400768828 /* PrivateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C3D725A6E3F400768828 /* PrivateTest.m */; };
 		F539C3E025A6E3F400768828 /* PrivateTestSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F539C3D925A6E3F400768828 /* PrivateTestSwiftVC.swift */; };
+		F539C40D25A6F30800768828 /* SubCoreOC.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C40C25A6F30800768828 /* SubCoreOC.m */; };
+		F539C41E25A6F32700768828 /* SubCoreSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F539C41D25A6F32700768828 /* SubCoreSwift.swift */; };
+		F539C42425A6F33400768828 /* SubPrivateOC.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C42325A6F33400768828 /* SubPrivateOC.m */; };
+		F539C42925A6F34300768828 /* SubPrivateSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F539C42825A6F34300768828 /* SubPrivateSwift.swift */; };
+		F539C43025A6F45800768828 /* UtilSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F539C42F25A6F45800768828 /* UtilSwift.swift */; };
+		F539C43925A6F46500768828 /* UtilOC.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C43825A6F46500768828 /* UtilOC.m */; };
+		F539C43F25A6F47C00768828 /* SubUtilOC.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C43E25A6F47C00768828 /* SubUtilOC.m */; };
+		F539C44425A6F49800768828 /* SubUtilSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F539C44325A6F49800768828 /* SubUtilSwift.swift */; };
 		F5C139A225A3208600116E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C139A125A3208600116E52 /* AppDelegate.swift */; };
 		F5C139A425A3208600116E52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C139A325A3208600116E52 /* SceneDelegate.swift */; };
 		F5C139A625A3208600116E52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C139A525A3208600116E52 /* ViewController.swift */; };
@@ -53,6 +61,18 @@
 		F539C3D725A6E3F400768828 /* PrivateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateTest.m; sourceTree = "<group>"; };
 		F539C3D825A6E3F400768828 /* PrivateTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateTest.h; sourceTree = "<group>"; };
 		F539C3D925A6E3F400768828 /* PrivateTestSwiftVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateTestSwiftVC.swift; sourceTree = "<group>"; };
+		F539C40B25A6F30800768828 /* SubCoreOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubCoreOC.h; sourceTree = "<group>"; };
+		F539C40C25A6F30800768828 /* SubCoreOC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubCoreOC.m; sourceTree = "<group>"; };
+		F539C41D25A6F32700768828 /* SubCoreSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCoreSwift.swift; sourceTree = "<group>"; };
+		F539C42225A6F33400768828 /* SubPrivateOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubPrivateOC.h; sourceTree = "<group>"; };
+		F539C42325A6F33400768828 /* SubPrivateOC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubPrivateOC.m; sourceTree = "<group>"; };
+		F539C42825A6F34300768828 /* SubPrivateSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubPrivateSwift.swift; sourceTree = "<group>"; };
+		F539C42F25A6F45800768828 /* UtilSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilSwift.swift; sourceTree = "<group>"; };
+		F539C43725A6F46400768828 /* UtilOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilOC.h; sourceTree = "<group>"; };
+		F539C43825A6F46500768828 /* UtilOC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilOC.m; sourceTree = "<group>"; };
+		F539C43D25A6F47C00768828 /* SubUtilOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubUtilOC.h; sourceTree = "<group>"; };
+		F539C43E25A6F47C00768828 /* SubUtilOC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubUtilOC.m; sourceTree = "<group>"; };
+		F539C44325A6F49800768828 /* SubUtilSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubUtilSwift.swift; sourceTree = "<group>"; };
 		F5C1399E25A3208600116E52 /* CloudTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C139A125A3208600116E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5C139A325A3208600116E52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +117,7 @@
 		F539C3CD25A6E3F400768828 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				F539C40925A6F2ED00768828 /* SubCore */,
 				F539C3CE25A6E3F400768828 /* CloudTalkHeader.h */,
 				F539C3CF25A6E3F400768828 /* EvernoteTestVC.h */,
 				F539C3D025A6E3F400768828 /* CloudTalkManager.h */,
@@ -112,11 +133,53 @@
 		F539C3D625A6E3F400768828 /* Private */ = {
 			isa = PBXGroup;
 			children = (
+				F539C40A25A6F2F400768828 /* SubPrivate */,
 				F539C3D725A6E3F400768828 /* PrivateTest.m */,
 				F539C3D825A6E3F400768828 /* PrivateTest.h */,
 				F539C3D925A6E3F400768828 /* PrivateTestSwiftVC.swift */,
 			);
 			path = Private;
+			sourceTree = "<group>";
+		};
+		F539C40925A6F2ED00768828 /* SubCore */ = {
+			isa = PBXGroup;
+			children = (
+				F539C40B25A6F30800768828 /* SubCoreOC.h */,
+				F539C40C25A6F30800768828 /* SubCoreOC.m */,
+				F539C41D25A6F32700768828 /* SubCoreSwift.swift */,
+			);
+			path = SubCore;
+			sourceTree = "<group>";
+		};
+		F539C40A25A6F2F400768828 /* SubPrivate */ = {
+			isa = PBXGroup;
+			children = (
+				F539C42225A6F33400768828 /* SubPrivateOC.h */,
+				F539C42325A6F33400768828 /* SubPrivateOC.m */,
+				F539C42825A6F34300768828 /* SubPrivateSwift.swift */,
+			);
+			path = SubPrivate;
+			sourceTree = "<group>";
+		};
+		F539C42D25A6F44100768828 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F539C42E25A6F44100768828 /* SubUtil */,
+				F539C42F25A6F45800768828 /* UtilSwift.swift */,
+				F539C43725A6F46400768828 /* UtilOC.h */,
+				F539C43825A6F46500768828 /* UtilOC.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		F539C42E25A6F44100768828 /* SubUtil */ = {
+			isa = PBXGroup;
+			children = (
+				F539C43D25A6F47C00768828 /* SubUtilOC.h */,
+				F539C43E25A6F47C00768828 /* SubUtilOC.m */,
+				F539C44325A6F49800768828 /* SubUtilSwift.swift */,
+			);
+			path = SubUtil;
 			sourceTree = "<group>";
 		};
 		F5C1399525A3208600116E52 = {
@@ -142,6 +205,7 @@
 		F5C139A025A3208600116E52 /* CloudTalk */ = {
 			isa = PBXGroup;
 			children = (
+				F539C42D25A6F44100768828 /* Util */,
 				F539C3CD25A6E3F400768828 /* Core */,
 				F539C3D625A6E3F400768828 /* Private */,
 				F5C139A125A3208600116E52 /* AppDelegate.swift */,
@@ -303,15 +367,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F539C44425A6F49800768828 /* SubUtilSwift.swift in Sources */,
+				F539C42925A6F34300768828 /* SubPrivateSwift.swift in Sources */,
 				F539C3DB25A6E3F400768828 /* CloudTalkManager.m in Sources */,
 				F539C3DD25A6E3F400768828 /* CloudTalkTest.swift in Sources */,
+				F539C43925A6F46500768828 /* UtilOC.m in Sources */,
 				F539C3DF25A6E3F400768828 /* PrivateTest.m in Sources */,
 				F539C3DE25A6E3F400768828 /* EvernoteTestSwiftVC.swift in Sources */,
 				F539C3E025A6E3F400768828 /* PrivateTestSwiftVC.swift in Sources */,
+				F539C42425A6F33400768828 /* SubPrivateOC.m in Sources */,
+				F539C41E25A6F32700768828 /* SubCoreSwift.swift in Sources */,
 				F5C139A625A3208600116E52 /* ViewController.swift in Sources */,
+				F539C43025A6F45800768828 /* UtilSwift.swift in Sources */,
 				F5C139A225A3208600116E52 /* AppDelegate.swift in Sources */,
 				F5C139A425A3208600116E52 /* SceneDelegate.swift in Sources */,
 				F539C3DC25A6E3F400768828 /* EvernoteTestVC.m in Sources */,
+				F539C40D25A6F30800768828 /* SubCoreOC.m in Sources */,
+				F539C43F25A6F47C00768828 /* SubUtilOC.m in Sources */,
 				F539C3DA25A6E3F400768828 /* XHTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,7 +568,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.CloudTalk.CloudTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -517,7 +589,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.CloudTalk.CloudTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
