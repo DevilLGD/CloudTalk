@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'CloudTalk'
-  s.version = '1.0.2'
+  s.version = '1.0.3'
   s.license = 'MIT'
   s.summary = 'Cloud Talk on iOS'
   s.homepage = 'https://github.com/DevilLGD/CloudTalk'
@@ -15,7 +15,20 @@ Pod::Spec.new do |s|
 
   s.swift_versions = ['5.1', '5.2', '5.3']
 
-  s.source_files = 'CloudTalk/*.swift'
+  #s.source_files = 'CloudTalk/*.swift'
 
   #s.frameworks = 'CFNetwork'
+
+
+  s.subspec 'Core' do |core|
+    core.source_files = 'CloudTalk/Core/*.{h,m,swift}', 'CloudTalk/CloudTalkHeader.h'
+  end
+
+  s.subspec 'Private' do |private|
+    private.source_files = 'CloudTalk/Private/*.{h,m,swift}'
+    private.private_header_files = 'CloudTalk/Private/*.h'
+  end
+
+
+
 end

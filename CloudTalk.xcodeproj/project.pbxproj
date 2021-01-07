@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F539C3DA25A6E3F400768828 /* XHTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F539C3D125A6E3F400768828 /* XHTest.swift */; };
+		F539C3DB25A6E3F400768828 /* CloudTalkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C3D225A6E3F400768828 /* CloudTalkManager.m */; };
+		F539C3DC25A6E3F400768828 /* EvernoteTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C3D325A6E3F400768828 /* EvernoteTestVC.m */; };
+		F539C3DD25A6E3F400768828 /* CloudTalkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F539C3D425A6E3F400768828 /* CloudTalkTest.swift */; };
+		F539C3DE25A6E3F400768828 /* EvernoteTestSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F539C3D525A6E3F400768828 /* EvernoteTestSwiftVC.swift */; };
+		F539C3DF25A6E3F400768828 /* PrivateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C3D725A6E3F400768828 /* PrivateTest.m */; };
+		F539C3E025A6E3F400768828 /* PrivateTestSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F539C3D925A6E3F400768828 /* PrivateTestSwiftVC.swift */; };
 		F5C139A225A3208600116E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C139A125A3208600116E52 /* AppDelegate.swift */; };
 		F5C139A425A3208600116E52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C139A325A3208600116E52 /* SceneDelegate.swift */; };
 		F5C139A625A3208600116E52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C139A525A3208600116E52 /* ViewController.swift */; };
@@ -35,6 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F539C3CE25A6E3F400768828 /* CloudTalkHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudTalkHeader.h; sourceTree = "<group>"; };
+		F539C3CF25A6E3F400768828 /* EvernoteTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvernoteTestVC.h; sourceTree = "<group>"; };
+		F539C3D025A6E3F400768828 /* CloudTalkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudTalkManager.h; sourceTree = "<group>"; };
+		F539C3D125A6E3F400768828 /* XHTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XHTest.swift; sourceTree = "<group>"; };
+		F539C3D225A6E3F400768828 /* CloudTalkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudTalkManager.m; sourceTree = "<group>"; };
+		F539C3D325A6E3F400768828 /* EvernoteTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvernoteTestVC.m; sourceTree = "<group>"; };
+		F539C3D425A6E3F400768828 /* CloudTalkTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudTalkTest.swift; sourceTree = "<group>"; };
+		F539C3D525A6E3F400768828 /* EvernoteTestSwiftVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvernoteTestSwiftVC.swift; sourceTree = "<group>"; };
+		F539C3D725A6E3F400768828 /* PrivateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateTest.m; sourceTree = "<group>"; };
+		F539C3D825A6E3F400768828 /* PrivateTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateTest.h; sourceTree = "<group>"; };
+		F539C3D925A6E3F400768828 /* PrivateTestSwiftVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateTestSwiftVC.swift; sourceTree = "<group>"; };
 		F5C1399E25A3208600116E52 /* CloudTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C139A125A3208600116E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5C139A325A3208600116E52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +94,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F539C3CD25A6E3F400768828 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F539C3CE25A6E3F400768828 /* CloudTalkHeader.h */,
+				F539C3CF25A6E3F400768828 /* EvernoteTestVC.h */,
+				F539C3D025A6E3F400768828 /* CloudTalkManager.h */,
+				F539C3D125A6E3F400768828 /* XHTest.swift */,
+				F539C3D225A6E3F400768828 /* CloudTalkManager.m */,
+				F539C3D325A6E3F400768828 /* EvernoteTestVC.m */,
+				F539C3D425A6E3F400768828 /* CloudTalkTest.swift */,
+				F539C3D525A6E3F400768828 /* EvernoteTestSwiftVC.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F539C3D625A6E3F400768828 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				F539C3D725A6E3F400768828 /* PrivateTest.m */,
+				F539C3D825A6E3F400768828 /* PrivateTest.h */,
+				F539C3D925A6E3F400768828 /* PrivateTestSwiftVC.swift */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
 		F5C1399525A3208600116E52 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +142,8 @@
 		F5C139A025A3208600116E52 /* CloudTalk */ = {
 			isa = PBXGroup;
 			children = (
+				F539C3CD25A6E3F400768828 /* Core */,
+				F539C3D625A6E3F400768828 /* Private */,
 				F5C139A125A3208600116E52 /* AppDelegate.swift */,
 				F5C139A325A3208600116E52 /* SceneDelegate.swift */,
 				F5C139A525A3208600116E52 /* ViewController.swift */,
@@ -258,9 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F539C3DB25A6E3F400768828 /* CloudTalkManager.m in Sources */,
+				F539C3DD25A6E3F400768828 /* CloudTalkTest.swift in Sources */,
+				F539C3DF25A6E3F400768828 /* PrivateTest.m in Sources */,
+				F539C3DE25A6E3F400768828 /* EvernoteTestSwiftVC.swift in Sources */,
+				F539C3E025A6E3F400768828 /* PrivateTestSwiftVC.swift in Sources */,
 				F5C139A625A3208600116E52 /* ViewController.swift in Sources */,
 				F5C139A225A3208600116E52 /* AppDelegate.swift in Sources */,
 				F5C139A425A3208600116E52 /* SceneDelegate.swift in Sources */,
+				F539C3DC25A6E3F400768828 /* EvernoteTestVC.m in Sources */,
+				F539C3DA25A6E3F400768828 /* XHTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +496,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.CloudTalk.CloudTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -465,7 +517,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.CloudTalk.CloudTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
